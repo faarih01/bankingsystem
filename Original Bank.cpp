@@ -65,6 +65,7 @@ void Bank::menu()
 		break;
 
 	default:
+		cout << "Invalid option\n";
 		break;
 	}
 
@@ -197,3 +198,31 @@ int main()
 	_getch();
 	return 0;
 }
+
+//void checkPassword() {
+//	cout << "Enter password: ";
+//	string password = "H3110W0r1d";
+//	int length = password.length();
+//	int i;
+//	string input;
+//	bool ok = true;
+//	cin >> input;
+//
+//	if (input.length() != password.length()) {
+//		ok = false;
+//	}
+//	else {
+//		for (i = 0; i < length; i++) {
+//			if (input[i] != password[i]) {
+//				ok = false;
+//				break;
+//			}
+//		}
+//	}
+//	if (ok) {
+//		cout << "Welcome!";
+//	}
+//	else {
+//		cout << "Error! Wrong password!";
+//	}
+//}
